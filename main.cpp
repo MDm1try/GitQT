@@ -13,5 +13,7 @@ int main(int argc, char *argv[])
     w.show();
 
     int a = pow(10);
+    int b = pow(10);
+    int c = a + b;
     return a.exec();
 }
