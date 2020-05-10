@@ -6,6 +6,16 @@ int pow (int a) {
     return a * a;
 }
 
+// An example function that takes two parameters 'x' and 'y'
+// as input and returns max of two input numbers
+int max(int x, int y)
+{
+    if (x > y)
+      return x;
+    else
+      return y;
+}
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
