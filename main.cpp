@@ -16,12 +16,12 @@ int max(int x, int y)
       return y;
 }
 
-int min(int x, int y)
+int min(int a, int b)
 {
-    if (x > y)
-      return y;
+    if (a > b)
+      return b;
     else
-      return x;
+      return a;
 }
 
 
